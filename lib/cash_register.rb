@@ -22,9 +22,13 @@ class CashRegister
     # whut is discount
     if !@discount.nil?
     @total -= @total * (@discount / 100.0)
+    "After the discount, the total comes to $#{@total.to_i}."
+
+  else
+    "There is no discount to apply."
   end
     # @total -= @discount
-    "After the discount, the total comes to $#{@total.to_i}."
+
 
   end
 end
