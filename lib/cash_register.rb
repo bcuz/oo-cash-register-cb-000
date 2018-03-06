@@ -3,6 +3,8 @@ class CashRegister
   attr_accessor :total
   attr_reader :discount
 
+  @@items = []
+
   def initialize(discount = nil)
     @total = 0
     @discount = discount
@@ -10,6 +12,8 @@ class CashRegister
   end
 
   def add_item(title, price, quantity = nil)
+
+    @@item << title
 
     if quantity.nil?
       @total += price
