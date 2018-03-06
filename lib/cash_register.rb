@@ -1,7 +1,7 @@
 class CashRegister
 
   attr_accessor :total
-  attr_reader :discount
+  attr_reader :discount, :items
 
   # not a class variable
   # @@items = []
@@ -38,6 +38,6 @@ class CashRegister
 
   # def items
   #   @@items
-  # 
+  #
   # end
 end
