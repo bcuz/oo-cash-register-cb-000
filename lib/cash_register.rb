@@ -34,7 +34,7 @@ class CashRegister
 
   def void_last_transaction
     # feel like that test not robust
-    # last price instance var??
+    # last price instance var?? lel
 
     @total -= @last
 
