@@ -3,6 +3,7 @@ class CashRegister
   attr_accessor :total
   attr_reader :discount
 
+  # not a class variable
   @@items = []
 
   def initialize(discount = nil)
@@ -36,6 +37,6 @@ class CashRegister
 
   def items
     @@items
-    
+
   end
 end
