@@ -20,6 +20,7 @@ class CashRegister
       @items << title
     else
       @total += (price*quantity)
+      quantity.times {@items << title}
     end
   end
 
