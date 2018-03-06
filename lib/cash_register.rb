@@ -36,5 +36,7 @@ class CashRegister
     # feel like that test not robust
     # last price instance var??
 
+    @total -= @last
+
   end
 end
