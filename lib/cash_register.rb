@@ -4,9 +4,10 @@ class CashRegister
   attr_reader :discount
 
   # not a class variable
-  @@items = []
+  # @@items = []
 
   def initialize(discount = nil)
+    @items = []
     @total = 0
     @discount = discount
 
