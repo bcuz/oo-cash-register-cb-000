@@ -32,7 +32,6 @@ class CashRegister
     "There is no discount to apply."
   end
     # @total -= @discount
-
-
   end
+  
 end
