@@ -35,6 +35,7 @@ class CashRegister
   end
 
   def void_last_transaction
+    # feel like that test not robust
 
   end
 end
