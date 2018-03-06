@@ -15,7 +15,7 @@ class CashRegister
 
   def add_item(title, price, quantity = nil)
 
-    @@items << title
+    @items << title
 
     if quantity.nil?
       @total += price
@@ -36,8 +36,8 @@ class CashRegister
     # @total -= @discount
   end
 
-  def items
-    @@items
-
-  end
+  # def items
+  #   @@items
+  # 
+  # end
 end
